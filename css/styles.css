@@ -674,7 +674,7 @@ body {
     opacity var(--anim);
 }
 
-.modal__btn {
+.modal-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -695,12 +695,12 @@ body {
     transition: color var(--anim);
 }
 
-.modal__btn:focus,
-.modal__btn:hover {
+.modal-btn:focus,
+.modal-btn:hover {
     color: var(--accent-color);
 }
 
-.modal__btn-icon {
+.modal-btn__icon {
     fill: currentColor;
 }
 
