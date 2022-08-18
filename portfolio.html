@@ -9,11 +9,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -22,7 +22,7 @@
       <div class="header__container container">
         <nav class="header__nav">
           <a class="logo header__logo" href="./index.html">
-            Web<span class="text__dark">Studio</span>
+            Web<span class="logo__part logo__part--dark">Studio</span>
           </a>
 
           <ul class="main-nav">
@@ -306,7 +306,7 @@
       <div class="container footer__container">
         <div class="footer-address">
           <a class="logo footer__logo" href="./index.html">
-            Web<span class="text__light">Studio</span>
+            Web<span class="logo__part logo__part--light">Studio</span>
           </a>
           <address>
             <ul class="footer-contacts">
@@ -379,7 +379,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button class="footer-form__btn" type="submit">
+            <button class="footer-form__btn primary_btn" type="submit">
               Підписатися
               <svg class="footer-form__icon" width="24" height="24">
                 <use href="./images/icons.svg#send"></use>
