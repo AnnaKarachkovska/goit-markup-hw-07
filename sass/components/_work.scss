@@ -1,6 +1,5 @@
 .work__list {
-    display: flex;
-    justify-content: space-between;
+    @include flex(null, space-between);
 }
 
 .work__box {

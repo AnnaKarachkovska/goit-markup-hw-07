@@ -1,12 +1,9 @@
 .clients__list {
-    display: flex;
-    justify-content: space-between;
+    @include flex(null, space-between);
 }
 
 .clients__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     
     width: 170px;
     height: 92px;

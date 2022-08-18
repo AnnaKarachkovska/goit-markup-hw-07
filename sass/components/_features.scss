@@ -3,8 +3,7 @@
 }
 
 .features__list {
-    display: flex;
-    justify-content: space-between;
+    @include flex(null, space-between);
 }
 
 .features__item {
@@ -14,9 +13,7 @@
 .features__box {
     margin-bottom: 30px;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
 
     height: 120px;
 

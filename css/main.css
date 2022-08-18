@@ -129,12 +129,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__logo {
@@ -266,7 +266,7 @@ body {
   background-color: #188CE8;
 }
 
-.primary_btn {
+.register-form__btn, .footer-form__btn, .hero__btn {
   padding-top: 10px;
   padding-bottom: 10px;
   display: -webkit-inline-box;
@@ -316,12 +316,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 120px;
   background-color: var(--background-color-light);
 }
@@ -412,12 +412,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 }
 
@@ -425,12 +425,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 44px;
   height: 44px;
   color: var(--icon);
@@ -464,12 +464,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 170px;
   height: 92px;
   color: var(--icon);
@@ -555,12 +555,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -654,16 +654,10 @@ body {
   -webkit-transition: opacity var(--anim), visibility var(--anim);
   transition: opacity var(--anim), visibility var(--anim);
 }
-
 .backdrop--hidden {
   opacity: 0;
   visibility: 0;
   pointer-events: none;
-}
-.backdrop--hidden .modal {
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%) scale(0.85);
-          transform: translate(-50%, -50%) scale(0.85);
 }
 
 .modal {
@@ -682,6 +676,11 @@ body {
   transition: opacity var(--anim), -webkit-transform var(--anim);
   transition: transform var(--anim), opacity var(--anim);
   transition: transform var(--anim), opacity var(--anim), -webkit-transform var(--anim);
+}
+.backdrop--hidden .modal {
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%) scale(0.85);
+          transform: translate(-50%, -50%) scale(0.85);
 }
 
 .modal-btn {

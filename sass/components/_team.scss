@@ -5,8 +5,7 @@
 }
 
 .team-list {
-    display: flex;
-    justify-content: space-between;
+    @include flex(null, space-between);
 }
 
 .team-list__item {
@@ -38,16 +37,12 @@
 }
 
 .team-social-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     gap: 10px;
 }
 
 .team-social-list__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
 
     width: 44px;
     height: 44px;

@@ -7,8 +7,7 @@
 }
 
 .footer__container {
-    display: flex;
-    align-items: baseline;
+    @include flex(baseline, null);
 }
 
 .footer__logo {
@@ -58,9 +57,7 @@
 }
 
 .footer-socials__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     
     width: 44px;
     height: 44px;
@@ -119,6 +116,7 @@
 }
 
 .footer-form__btn {
+    @extend %primary-btn;
     padding-left: 28px;
     padding-right: 28px;
 

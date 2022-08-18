@@ -1,8 +1,7 @@
 .filter {
     margin-bottom: 50px;
 
-    display: flex;
-    justify-content: center;
+    @include flex(null, center);
 }
 
 .filter__item + .filter__item {

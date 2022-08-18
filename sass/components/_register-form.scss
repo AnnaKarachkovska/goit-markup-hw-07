@@ -91,9 +91,8 @@
 .register-form__agreement {
     margin-bottom: 30px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(center,center);
+    
     gap: 8px;
 }
 
@@ -127,6 +126,7 @@
 }
 
 .register-form__btn {
+    @extend %primary-btn;
     margin: 0 auto;
     padding-left: 52px;
     padding-right: 52px;

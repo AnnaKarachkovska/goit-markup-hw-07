@@ -10,16 +10,11 @@
 
     transition: opacity var(--anim),
     visibility var(--anim);
-}
 
-.backdrop--hidden {
-    opacity: 0;
-    visibility: 0;
-    pointer-events: none;
-
-    & .modal {
+    &--hidden {
         opacity: 0;
-        transform: translate(-50%, -50%) scale(0.85);
+        visibility: 0;
+        pointer-events: none;
     }
 }
 
@@ -38,6 +33,12 @@
 
     transition: transform var(--anim),
     opacity var(--anim);
+
+
+    .backdrop--hidden & {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.85);
+    }
 }
 
 .modal-btn {

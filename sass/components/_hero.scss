@@ -35,6 +35,7 @@
 }
 
 .hero__btn {
+    @extend %primary-btn;
     padding-left: 32px;
     padding-right: 32px;
 

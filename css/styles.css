@@ -1,4 +1,4 @@
-/*html {
+html {
     box-sizing: border-box;
 }
 
@@ -8,7 +8,7 @@
     box-sizing: inherit;
 }
 
-/* Стили для обнуления верхних отступов у элементов 
+/* Стили для обнуления верхних отступов у элементов */
 h1,
 h2,
 h3,
@@ -19,32 +19,32 @@ p {
     margin-top: 0;
 }
 
-/* Класс для обнуления базовых свойств у списков (ul) 
+/* Класс для обнуления базовых свойств у списков (ul) */
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-/* Класс для обнуления базовых свойств у ссылок 
+/* Класс для обнуления базовых свойств у ссылок */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Свойства для корректного отображения картинок 
+/* Свойства для корректного отображения картинок */
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-/* Свойства для обнуления курсива у address 
+/* Свойства для обнуления курсива у address */
 address {
     font-style: normal;
 }
 
-/*  :root {
+:root {
     --main-text-color: #212121;
     --text-color: #757575;
     --accent-color: #2196F3;
@@ -62,7 +62,7 @@ address {
 } */
 
 /* Стилі для index.html */
-/* 
+
 body {
     color: var(--main-text-color);
     font-family: var(--main-font);
@@ -79,8 +79,8 @@ body {
     padding-right: 15px;
 
     width: 1200px;
-} */
-/*
+} 
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -94,7 +94,6 @@ body {
     overflow: hidden;
 }
 
-/*
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -109,7 +108,7 @@ body {
     text-align: center;
 } */
 
-/* Logo 
+/* Logo */
 .logo {
     display: block;
 
@@ -126,8 +125,8 @@ body {
 .header__logo {
     margin-right: 93px;
 }
-*/
-/* Header 
+
+/* Header */
 .header {
     border-bottom: 1px solid var(--border-top);
 }
